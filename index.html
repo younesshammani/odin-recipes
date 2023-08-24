@@ -3,16 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container,
+        .container2 {
+            font-size: xx-large;
+
+        }
+        .container {
+         
+            color: rgb(71, 204, 197);
+          margin: auto;
+          
+        }
+        
+        .container2 {
+            
+            font-style: italic;
+          color: rgb(219, 21, 38);
+          margin: auto;
+          
+        }
+        p {
+            font-size: larger;
+            font-style: italic;
+          color: hsl(357, 15%, 73%);
+          margin: auto;
+          
+        }
+        button {
+          align-self: center ;
+            padding: 10px;;
+            border:   dashed medium #d40622;
+             margin: 30px;
+        
+            background-color: #ffeb00;
+            font-size: larger;
+            font-style: italic;
+          color: hsla(229, 40%, 70%, 0.906);
+         
+          
+        }
+        div.first  {
+            font-size: xx-large;
+            font-style: italic;
+          color: hsl(356, 6%, 56%);
+          margin: auto;
+        }
+        div.second {
+            margin: 20px;
+            font-size: x-large;
+            font-style: italic;
+          color: #dd8929;
+          
+        }
+        #title {
+            font-size: xxx-large;
+  background-color: transparent;
+}
+.subsection.header {
+    color: #ffeb00;
+}
+        
+        
+        
+        
+            </style>
     <title>Document</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/lasagna.html">Lasagna Recipe</a>
+    <h1 id="title">Odin Recipes</h1>
+    <button>Press me!</button>
+    <div class="subsection header">
+        here! header
+    </div><a href="recipes/lasagna.html">Lasagna Recipe</a>
     <a href="recipes/tajine.html">Tajine Recipe</a>
-    <div>Hello, World!</div>
+    <div class="container">Hello, World!</div>
 <div>Hello again!</div>
+<div class="first">inside div</div>
+<div  class="second">inside.inside div</div>
+
+</div>
+
 <p>Hi...</p>
-<div>Okay, bye.</div>
+<div class="container2">Okay, <p class="subsection preview" id="title">bye.</p></div>
 
     
 </body>
